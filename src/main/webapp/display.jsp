@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-	I am is : ${result}
+	<h4 style="color: green;">${status}</h4>
 </body>
 </html>
