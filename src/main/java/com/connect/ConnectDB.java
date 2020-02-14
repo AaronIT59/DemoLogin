@@ -21,7 +21,7 @@ public class ConnectDB {
 	public static Connection getSQLServerConnection(String hostName,
 	         String sqlInstanceName, String database, String userName,
 	         String password) throws ClassNotFoundException, SQLException {
-	
+		
 		     Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
 	
 		     String connectionURL = "jdbc:sqlserver://" + hostName + ":49685"
