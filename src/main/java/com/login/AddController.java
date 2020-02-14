@@ -15,7 +15,7 @@ public class AddController extends DaoImpl{
 		ModelAndView mv =new ModelAndView();
 		String t1= request.getParameter("user");
 		String t2= request.getParameter("pass");
-		if(new AddController().checkLogin(t1, t2))
+		if(checkLogin(t1, t2))
 		{
 			mv.setViewName("display.jsp");
 			mv.addObject("status","Success!");
